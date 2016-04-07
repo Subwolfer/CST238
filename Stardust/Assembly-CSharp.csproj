@@ -45,7 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Heureka\HeurekaShared\Extensions.cs" />
+     <Compile Include="Assets\Heureka\HeurekaShared\Singleton.cs" />
      <Compile Include="Assets\Skeleton - Animated and Low Polygon\Movement.cs" />
+     <None Include="Assets\Heureka\AssetHunter\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{154210B1-9B5B-63E6-CA61-45FE99179045}") = "Stardust", "Assembly-CSharp.csproj", "{35842221-A901-EE91-74CE-942E9B4A1099}"
 EndProject
+Project("{154210B1-9B5B-63E6-CA61-45FE99179045}") = "Stardust", "Assembly-CSharp-Editor.csproj", "{DCA6B334-B778-E6E5-8FC9-CE86435D2471}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{35842221-A901-EE91-74CE-942E9B4A1099}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35842221-A901-EE91-74CE-942E9B4A1099}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35842221-A901-EE91-74CE-942E9B4A1099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA6B334-B778-E6E5-8FC9-CE86435D2471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA6B334-B778-E6E5-8FC9-CE86435D2471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA6B334-B778-E6E5-8FC9-CE86435D2471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA6B334-B778-E6E5-8FC9-CE86435D2471}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
