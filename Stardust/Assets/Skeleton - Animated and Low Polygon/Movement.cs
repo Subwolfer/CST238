@@ -28,7 +28,7 @@ public class Movement : MonoBehaviour {
 
         transform.Rotate(0, horizontal * rotate, 0);
 
-        if (vertical != 0)
+        if (vertical != 0 && !anim.GetBool("Normal_Attack")) 
         {
             if (Input.GetKey(KeyCode.LeftShift))
                 speed = sprint;
@@ -46,11 +46,24 @@ public class Movement : MonoBehaviour {
                 anim.SetBool("Walking", true);
                 anim.SetBool("Running", false);
             }
+
+
+            if (Input.GetKey(KeyCode.Space))
+            {
+                anim.SetBool("Normal_Attack", true);
+                anim.SetBool("Running", false);
+                anim.SetBool("Walking", false);
+            }
         }
         else
         {
             anim.SetBool("Running", false);
             anim.SetBool("Walking", false);
+        }
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            anim.SetBool("Normal_Attack", true);
         }
 	}
 }
