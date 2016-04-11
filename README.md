@@ -84,23 +84,23 @@ If completed the save character progress will happen each time a character compl
 Unity3D, C#, SQLite
 
 <B> Screenshots: </B> <BR>
-![alt text](/1dfba1de-3b43-4a80-babf-767f6d1669a6_scaled.jpg) <BR>
+![alt text](img/1dfba1de-3b43-4a80-babf-767f6d1669a6_scaled.jpg) <BR>
 Small village where you might find some NPC's
 <BR>
 <BR>
-![alt text](/77da476d-4348-4b3f-b2c5-e582b01830a0_scaled.jpg) <BR>
+![alt text](img/77da476d-4348-4b3f-b2c5-e582b01830a0_scaled.jpg) <BR>
 overhead view of village
 <BR>
 <BR>
-![alt text](/9659a0f5-cc37-45e4-ab27-7028a5b11c39_scaled.jpg) <BR>
+![alt text](img/9659a0f5-cc37-45e4-ab27-7028a5b11c39_scaled.jpg) <BR>
 A small area outside the village
 <BR>
 <BR>
-![alt text](/9659a0f5-cc37-45e4-ab27-7028a5b11c39_scaled.jpg) <BR>
+![alt text](img/9659a0f5-cc37-45e4-ab27-7028a5b11c39_scaled.jpg) <BR>
 Right outside the village
 <BR>
 <BR>
-![alt text](/a3b0117a-061a-4ce5-b333-b9cfbb6f2310_scaled.jpg) <BR>
+![alt text](img/a3b0117a-061a-4ce5-b333-b9cfbb6f2310_scaled.jpg) <BR>
 Dead trees in zone
 <BR>
 <BR>
