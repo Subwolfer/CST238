@@ -18,38 +18,38 @@ permits.
 
 Storyline: <BR>
 Minor details of the storyline worked out, which leads to the environmental choices for the game. Although the storyline 
-will not be revealed to the user by the end of this assignment, the asset choices for character, environment and monsters
-will play heavily upon the storyline that we will come up with.
+will not be fully revealed to the user by the end of this assignment, the asset choices for character, environment and monsters will play heavily upon the storyline that we will come up with. We also added a narrative at the start to give a small intro into the storyline.
 
 Pre-Game Screens: <BR>
-This is where we will have a start screen, a character select screen and possibly a small story snippet for new characters. 
-If we reach the extended part for saving characters, we will also add a load screen here.
+We currently have a start screen and a character select screen. if its your first time playing the game, there is a small world view where the camera pans through the forest and another part of the world while a narrative is playing.
 
 Environment:<BR>
-We will create a single zone for this assignment which will contain grass, trees, rocks, a couple buildings and some dirt 
-paths, and perhaps more depending on what feels right for the scene. Trees and buildings will have colliders preventing the 
-player and enemies from walking through them
+We created a single zone for this assignment which will contain grass, trees, rocks, a few buildings and some dirt 
+paths. Trees and buildings have colliders preventing theplayer and enemies from walking through them.
 
 Default Interface:<BR>
-We will have a screen that has a mini-map. A portrait for the character, A health bar for the character. The character’s targets portrait and health bar.  A small list of abilities, along with an inventory (if we reach this on the extended portion).
+We will have a screen that has a mini-map. A portrait for the character (this currenlty has a heart and may remain that way until the end of the term), A health bar for the character.  There are also enemy health bars that appear above the enemys head to show their current health.
 
 Character<BR>
-We will have 2 unique characters with unique play styles in this game. We plan on having a melee class which uses some sword weapons and a ranged class which will have a bow and arrow The characters will each have animations for “Walk, Idle, Attack, being attacked, and Death.
+We have 2 unique characters but did not implement unique play styles yet in this game. The characters will each have animations for “Walk, run, idle, multiple attacks, being attacked, and Death.
 
 Enemies:<BR>
-There will be a minimum of 2 different types of enemies with different stats. Each enemy will have its own animations for Walk, Idle, Attack, being attacked, and Death. One enemy type will start out non hostile until attacked, the other will always be hostile if there is a player within range to engage him. Once engaged an enemy will follow a player either one dies, or there is not a valid pathing option to the player.
+We currenlty have multiple of the same type of enemies, but we left the option to customize each by giving different health and aggro range values to them. The enemy was made in a way so it could be easily duplicated to give as many of them as we want for the final deliverable
 
 Combat:<BR>
-Enemies will have a limited AI for pathing and attacking. If there is too great of a distance between an engaged emery and the player who engaged it, the enemy will attempt to move to the player. If there is an obstacle between the player, such as a building, the enemy will attempt to find a path to the character to continue attacking. When an enemy is engaged, a health bar will appear over the enemy’s head showing his current health.
+Enemies will have a limited AI for pathing and attacking. If there is too great of a distance between an engaged emery and the player who engaged it, the enemy will attempt to move to the player. If there is an obstacle between the player, such as a building, the enemy will attempt to find a path to the character to continue attacking. When an enemy is engaged, a health bar will appear over the enemy’s head showing his current health. The enemy can also disengage if the player leaves the enemies aggro range ( runs too far away ).
 
 NPCs:<BR>
-We will have 4 NPCs in total (5 if we reach the vendor part of our extended project). There will be 2 other NPC’s who will be quest givers and give the player quests. Finally, there will be the final 2 NPC’s who will simply talk to the character with idle chatter.
+We currently have 5 NPC's in total. We have 2 in the village, 1 in a gaurd tower, 1 at the "house on the hill" and one in a small fishing shack near the lower river. Although the NPC's currenlty do not do anything as we didn't have time to implement a dialog and quest system.
 
 Quests:<BR>
-We will have the ability to pick up quests form NPC’s, track our quests as they are in progress and turn in quests one they are completed. The quests may give rewards if we reach an inventory part of the extended project.
+Unable to be completed by the end of this project
+
+Save Character Progress:<BR>
+The current save feature will save the characcters possition and rotation when the game is exited through the menu.
 
 Extended Project:<BR>
-(the stuff we get to if we have time)
+(the stuff we will add after the class
 
 Loot Window:<BR>
 The ability to loot enemies, the enemies will pop up a loot window and the enemy will drop items the user can pick up if they wish to have the items.
@@ -72,12 +72,9 @@ A server to be set up so multiple users can log in and see each other in the ope
 Chat:<BR>
 Players ability to speak to one another and read what is said in the player’s chat log.
 
-
 Multi-Person combat:<BR>
 The enemy’s decision to decide who to attack if multiple people are in a group attacking the same enemy. How items are distributed when an enemy dies.
 
-Save Character Progress:<BR>
-If completed the save character progress will happen each time a character completes a quest, or their inventory changes so character do not have at be manually saved and their current progress will always have an up to date save.
 <BR>
 <BR>
 <B> Technologies: </B> <BR>
@@ -116,8 +113,7 @@ teachers aide in assistance of the project.  The developers of this project rese
 For this point of time, all Contributions will follow the naming and commening conventions of the OIT coding stnadards some of these include all non constant variables starting with a lower cased letter for an underscore. All functions starting with a capital letter. Multiple word function or variables will either be camel cased or have underscores between the words. All variables and functions will be commented with thier purpose.
 
 <B> Bounty List (bugs): </B>
-The only bugs at this point are in the thinking process of the developers. If you have the ability to solve these I would
-be quite impressed.
+We have a few bugs with someo f the assets we downloaded using some types of depreciated scripts or other small issues, but we are currenlty working thorugh them.
 
 <B> Constributors: past, present, and future </B> <BR>
 Michel Koopman<BR>
